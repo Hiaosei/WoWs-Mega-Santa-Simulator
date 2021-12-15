@@ -127,7 +127,6 @@ def gamble(x):
     print("Ships of t8-t9 = ", t8t9_count)
     print("Ships of t10 or rare = ", t10rare_count)
 
-
 running=True
 while running !=False:
     box_count= int(input("How many boxes are you purchasing? Type 0 to exit\n"))
