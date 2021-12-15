@@ -37,9 +37,6 @@ rarecamo=["25x New Year Camo","25x Type - 3 New Year Camo"]
 ssrcamo=["5x Spring Sky","5x Asian Lantern","5x Mosaic"]
 
 roll=-1
-
-
-
 def gamble(x):
     pity=0
     camo_count = 0
