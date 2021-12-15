@@ -7,7 +7,6 @@ rare_table=["X Max Immelmann","X Thunderer","X Marceau","X Hayate","X Småland",
             "VII Haida","VII Nelson","VII Flint","VII Belfast","VI Erich Loewenhardt",
             "VI Admiral Graf Spee","VI T-61"]
 
-
 t8t9_table=["IX Pommern","IX Marco,Polo","IX Ägir","IX Azuma","IX Z-44",
             "IX Groningen","VIII Saipan","VIII Indomitable","VIII Graf Zeppelin",
             "VIII Kaga","VIII Alabama","VIII Constellation","VIII Vanguard","VIII Gascogne",
