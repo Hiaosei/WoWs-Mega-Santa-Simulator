@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec 15 12:20:19 2021
-
-@author: User
-"""
-
 import random
 rare_table=["X Max Immelmann","X Thunderer","X Marceau","X Hayate","X Småland",
             "X Salem","X Napoli","X Yoshino","X Moskva","X Smolensk","IX Missouri",
