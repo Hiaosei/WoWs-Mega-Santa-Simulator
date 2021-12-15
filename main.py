@@ -46,6 +46,7 @@ def gamble(x):
     totaldubs = 0
     totalcoal = 0
     premiumdays = 0
+    pitytotal = 0
     while x > 0:
         x-=1
         roll = random.randint(1,100)
@@ -55,13 +56,17 @@ def gamble(x):
             pity_roll = random.randrange(1,16)
             if pity_roll == 1:
                 print("PITY ROLL",random.choice(rare_table))
-                
+                t10rare_count+=1
+                pitytotal+=1
                 
             elif 2 <= pity_roll <= 4:
                 print("PITY ROLL",random.choice(t8t9_table))
-                
+                t8t9_count+=1
+                pitytotal+=1       
             else:
                 print("PITY ROLL",random.choice(t5t6t7_table))
+                t5t6t7_count+=1
+                pitytotal+=1
             
         elif 1 <= roll <= 40:
             print(random.choice(specialsig))
@@ -126,6 +131,7 @@ def gamble(x):
     print("Ships of t5-t7 = ", t5t6t7_count)
     print("Ships of t8-t9 = ", t8t9_count)
     print("Ships of t10 or rare = ", t10rare_count)
+    print("Ships gained from pity = ", pitytotal)
 
 running=True
 while running !=False:
